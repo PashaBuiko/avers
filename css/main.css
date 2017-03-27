@@ -1607,3 +1607,119 @@ button:focus{
 .kontakt .circle.moscow{
   background: transparent url('../images/moscow-u34641-fr.jpg') no-repeat right top;
 }
+#myModal .close{
+
+  width:29px;
+  height:29px;
+  border:1px solid #7F7F7F;
+  border-radius: 16px;
+  background: #202F3E url(../images/ico_close.png) no-repeat center center;
+  opacity: 1;
+  margin-top:-30px;
+}
+#myModal .modal-dialog{
+  width: 767px;
+  padding: 39px 54px 85px 81px;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: border-box;
+  box-sizing: content-box;
+}
+#myModal h4{
+  color: #202F3E;
+  line-height: 22px;
+  font-size: 18px;
+  text-align: left;
+  font-family: open-sans, sans-serif;
+  font-weight: 400;
+}
+#myModal .modal-header{
+  border-bottom: none;
+  padding-left: 80px;
+  padding-top:40px;
+}
+#myModal .circle{
+  width: 86px;
+  height: 86px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  vertical-align: top;
+  margin-bottom: 10px;
+  margin-top:25px;
+}
+.circle.pic1{
+  background: transparent url('../images/moscow-u34641-fr.jpg') no-repeat right top;
+}
+.circle.pic2{
+  background: transparent url('../images/piter.jpg') no-repeat right top;
+}
+.circle.pic3{
+  background: transparent url('../images/tver_1.jpg') no-repeat right top;
+}
+.circle.pic4{
+  background: transparent url('../images/kaliningrad-u34812-fr.jpg') no-repeat right top;
+}
+.circle.pic5{
+  background: transparent url('../images/astrahan.jpg') no-repeat right top;
+}
+#myModal .modal-body >div{
+  text-align: center;
+}
+#myModal .modal-body p{
+  text-align: center;
+  line-height: 19px;
+  text-align: center;
+  color: #18232F;
+  font-size: 16px;
+  font-family: open-sans, sans-serif;
+  font-weight: 400;
+  margin-bottom: 0px;
+}
+#myModal .modal-body a{
+  display: block;
+  text-decoration: none;
+}
+#myModal .modal-body a:hover{
+  text-decoration: none;
+}
+#myModal .blue-area{
+  width: 220px;
+  background-color: #6BC4E1;
+  border-radius: 10px;
+  padding: 20px 25px 24px 23px;
+  margin:0 auto;
+  margin-top:25px;
+}
+#myModal .blue-area p {
+
+  margin-bottom: 5px;
+}
+#myModal .blue-area p,#myModal .blue-area span{
+  line-height: 14px;
+  text-align: center;
+  color: #FFFFFF;
+  font-size: 14px;
+  font-family: open-sans, sans-serif;
+  font-weight: 400;
+  display: block;
+  
+}
+#myModal .blue-area span{
+  font-size: 12px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+#myModal .blue-area input {
+  font-style: italic;
+  color: #7F7F7F;
+}
+#myModal .blue-area button{
+  background-color: #D55046;
+  width: 160px;
+   color:white;
+  border-radius: 10px;
+  margin-bottom: 0px;
+  border:none;
+  height: 35px;
+  margin-top:10px;
+}
