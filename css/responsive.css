@@ -1,3 +1,4 @@
+
 @media screen and (max-width: 991px) {
     .b-h__logo{
         text-align: center;
@@ -62,5 +63,299 @@
         font-size: 16px;
         line-height: 22px;
     }
+}
+
+/*    my adaptive*/
+
+@media screen and (max-width: 1366px) {
+    .content-block .conteiner{
+        padding: 10px;
+    }
+    .content-block.price .conteiner{
+        padding-top:122px;
+    }
+}
+@media screen and ( max-width: 1280px) {
+    .oborudovanie .block-description{
+        min-height: 225px;
+    }
+    .content-block h2{
+        padding-left: 45px;
+    }
+}
+@media screen and (max-width: 1280px){
+    .news .news-image img{
+        width:100%;
+        top:5px;
+    }
+    .news .news-image {
+        width:385px;
+    }
+    .news .news-container span{
+        padding-left: 45px;
+    }
+    .news .news-container p{
+        padding-left: 45px;
+    }
+    .news .news-container a{
+        padding-left: 45px;
+    }
+    .ustanovki .red-button{
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 1199px) {
+    .b-local-text {
+        padding-right: 30px;
+    }
+    .bc_line .img-src.price-img .picture{
+
+        right: -400px;
+        top:60px;
+    }
+    .content-block.price .conteiner{
+        padding-top:122px;
+    }
+    .price .head_block p{
+        font-size:20px;
+    }
+    .content-block ul li{
+        width:260px;
+    }
+    .price.second_block .head_block span.yellow_color{
+        font-size: 20px;
+    }
+    .support .text-wrapper{
+        display:block;
+        margin-top:20px;
+        text-align: center;
+        max-width: none;
+    }
+    .support img{
+        margin: 0 auto;
+        display: block;
+    }
+    .support .text-wrapper.last{
+        max-width: none;
+    }
+    .ustanovki .list-block .col-md-6:nth-child(2n){
+        margin-left: 0;
+    }
+    .ustanovki .list-block .col-md-6:nth-child(2n-1){
+        margin-right: 0px;
+    }
+    .kontakt .kontakt-block .col-md-5 .text{
+        max-width: 200px;
+    }
+    .kontakt .kontakt-block .text{
+        vertical-align: top;
+        margin-top:0px;
+    }
+}
+@media screen and (max-width: 1024px){
+    .newspaper:before, .newspaper:after{
+        display: none;
+    }
+}
+@media screen and (max-width: 991px){
+    .price .wrap_block{
+        margin-top:20px;
+    }
+    .content-block ul li {
+        width: 270px;
+    }
+    .content-block.price.second_block .container-first>div:nth-child(2){
+        margin-top: 90px;
+    }
+    .support .text-wrapper, .support .text-wrapper.last{
+        margin: 20px auto;
+        max-width: 280px;
+    }
+    .red-block .circle{
+        vertical-align: top;
+        display: inline-block;
+    }
+    .red-block .text-wrapper 
+    {
+        display: inline-block;
+        max-width:440px;
+        padding-left: 0px;
+    }
+    .red-block .text-wrapper p{
+        padding-left: 0px;
+        margin-bottom: 40px;
+    }
+    .red-block .text-wrapper p.title{
+        margin-bottom: 20px;
+    }
+    .red-block .row .center-block{
+        max-width: none;
+    }
+    .red-block .second-row{
+        margin-top:0px;
+    }
+    .support .list .item{
+        height: 185px;
+        margin-bottom: 55px;
+    }
+    .support .list .item a{
+        display: block;
+        margin-bottom: 20px;
+    }
+    .support .list .item .button-blue {
+        left: 138px;
+        margin-top: 0px;
+    }
+    .content-block h2{
+        padding-left: 0;
+    }
+    .news .news-container span{
+        padding-left: 0px;
+    }
+    .news .news-container p{
+        padding-left: 0px;
+    }
+    .news .news-container a{
+        padding-left: 0px;
+    }
+    .news .news-container h2{
+        padding-top:20px;
+    }
+    .kontakt .kontakt-block >div:first-child{
+        border-right: none;
+        border-bottom: 1px solid black;
+        margin-bottom: 20px;
+        padding-bottom: 20px;
+    }
+    .newspaper .left .prioritet-block .pic1,.newspaper .left .prioritet-block .pic2,
+    .newspaper .left .prioritet-block .pic3{
+        margin:0 auto;
+        margin-bottom: 10px;
+    }
+    .red-block.about-us p.text{
+        min-height: 0;
+    }
+    .slick-arrow{
+        display: none!important;
+    }
+}
+@media screen and (max-width: 767px) {
+    .content-block .container {
+        padding: 10px;
+    }
+    .content-block  .block-description .col-md-4 img{
+        margin:0 auto;
+        margin-bottom: 10px;
+    }
+    .content-block.price .conteiner{
+        padding-top:40px;
+    }
+    .price .head_block p{
+        font-size: 16px;
+    }
+    .support .list .item{
+        height: 230px;
+    }
+    .pechat .conteiner:before{
+        width: 235px;
+        height: 97px;
+        background-size: 100%;
+        top: -90px;
+        left: 8px;
+    }
+    .pechat .block-description .col-md-8{
+        margin:10px;
+    }
+    .oborudovanie .block-description{
+        margin-bottom: 25px;
+    }
+    .product-page .red-button{
+        margin-bottom: 20px;
+    }
 
 }
+@media screen and (max-width: 480px){
+    .news .news-image{
+        width:300px;
+        margin:0 auto;
+    }
+    .news .news-container h2{
+        text-align: center;
+    }
+    .ustanovki .pagination>li>a{
+        width:30px;
+    }
+    .ustanovki .map-block{
+        height: 350px;
+    }
+    .ustanovki .list-block .item{
+        min-width: 300px;
+    }
+    .slick-dots li {
+        margin-bottom: -3px;
+        height: 40px;
+        width:13px;
+    }
+    .slick-dots li:first-child{
+        margin-left: 0px;
+    }
+}
+@media screen and (max-width: 400px) {
+      .block-description .col-md-4 img{
+       width:200px;
+    }
+    .content-block ul li{
+        width:250px;
+    }
+    .content-block{
+        overflow: hidden;
+    }
+    .pechat{
+        overflow: visible;
+    }
+    .content-block .container{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .content-block ul li p {
+         padding-right: 10px;
+    }
+    .content-block .text{
+        padding:5px;
+    }
+    .news .news-image{
+        width:270px;
+    }
+    .ustanovki .pagination>li>a{
+        width:10px
+    }
+    .kontakt .kontakt-block .col-md-5 .text{
+        max-width: 150px;
+    }
+    .oborudovanie .block-description{
+        padding-left:0px;
+        padding-right: 0px;
+        margin-left:0px;
+        margin-right: 0px;
+    }
+    .slick-dots li{
+        width:0px;
+    }
+    .block.about-us .button-block .green-button{
+        width:310px;
+        margin:0 auto;
+    }
+    .block.about-us .button-block{
+        display: block;
+        max-width: 310px;
+    }
+    .newspaper .left .top-line span.text2{
+        display: block;
+        right: 0;
+    }
+    
+}
+
+
+
